@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(216, 12%, 8%);
+	font-size: 15px;
+	font-family: 'Overpass', sans-serif;
+}
+
+.wrap {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1440px;
+}
+
+a {
+	vertical-align: bottom;
+}
+
+.rateBox {
+	width: 412px;
+	margin: 195px auto;
+	padding: 31px;
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(0, 0%, 100%);
+	max-width: 100%;
+	border-radius: 30px;
+}
+
+.starIco {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 35px;
+	background-color: hsl(216, 12%, 54%, 0.2);
+	border-radius: 50%;
+}
+
+.starIco img {
+    position: relative;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rateBox h3 {
+	margin-bottom: 14px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.rateValue {
+	display: flex;
+	margin: 26px 0 30px;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.rateValue li button {
+	display: flex;
+	width: 52px;
+	height: 52px;
+	padding-top: 3px;
+	border: none;
+	background-color: hsl(216, 12%, 54%, 0.2);
+	color: hsl(217, 12%, 63%);
+	font-size: 18px;
+	text-decoration: none;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+
+.rateValue li button:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.rateValue li button:focus {
+	background-color: hsl(216, 12%, 54%);
+	color: hsl(0, 0%, 100%);
+}
+
+.submitBtn {
+	display: block;
+	width: 100%;
+	padding: 14px;
+	border: none;
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 25px;
+	transition: .3s;
+}
+
+.submitBtn:hover {
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+
+.thankBox {
+	width: 412px;
+	margin: 195px auto;
+	padding: 45px 31px 47px;
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	max-width: 100%;
+	border-radius: 30px;
+}
+
+.thankImg {
+	margin-bottom: 23px;
+}
+
+.hide {
+	display: none;
+}
+
+.rateTotal {
+	margin: 0 79px 38px;
+	padding: 6px 0 2px;
+	background-color: hsl(216, 12%, 54%, 0.2);
+	color: hsl(25, 97%, 53%);
+	border-radius: 25px;
+}
+
+.thankBox h3 {
+	margin-bottom: 13px;
+    font-size: 28.7px;
+}
+
+.thankBox p:last-child {
+    font-size: 15.1px;
+}
+
+.attribution {
+	font-size: 11px;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
